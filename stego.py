@@ -3,7 +3,7 @@ import os
 import string
 
 # Using forward slashes
-img = cv2.imread("C:/Users/dines/OneDrive/Pictures/2024-Formula1-Ferrari-SF-24-002-1080.jpg")
+img = cv2.imread("C:/Users/dines/Downloads/flower.jpg")
 
 
 
@@ -45,4 +45,4 @@ if password == pas:
         z = (z + 1) % 3
     print("Decryption message:", message)
 else:
-    print("YOU ARE NOT auth")
+    print("YOU ARE NOT authorized")
